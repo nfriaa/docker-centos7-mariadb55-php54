@@ -1,6 +1,6 @@
-# Docker with {Centos7 + MariaDB5.5 + PHP5.4 } #
+# Docker with {Centos7 + MariaDB5.5 + PHP5.4} #
 
-A Docker LAMP stack for Web development
+A Docker LAMP stack to use for both Web development and production mode. Extending Centos/systemd in the docker file is optional but very useful (allows us to save a lot of time)...
 
 ## Description ##
 A Docker file to build an run container with Centos7 + MariaDB5.5 + PHP5.4
