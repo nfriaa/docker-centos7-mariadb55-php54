@@ -1,9 +1,0 @@
-
-###### build :
-docker build --rm --no-cache -t centos7mariadb55php54_image .
-
-###### run :
-docker run --privileged --name centos7mariadb55php54_container -v /sys/fs/cgroup:/sys/fs/cgroup:ro -p 80:80 -d centos7mariadb55php54_image
-
-# run with shared volumes :
-docker run --privileged --name centos7mariadb55php54_container -v /Users/nafaa/monServeurLocal/htdocs:/var/www/html -v /sys/fs/cgroup:/sys/fs/cgroup:ro -p 80:80 -p 3306:3306 -v /Users/nafaa/monServeurLocal/mariadb:/var/lib/mysql -d centos7mariadb55php54_image
