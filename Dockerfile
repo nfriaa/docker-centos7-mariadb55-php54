@@ -1,6 +1,6 @@
-#
-# LAMP : centos7 + mariadb5.5 + php5.4 + phpMyAdmin4.4
-#
+###
+### LAMP : centos7 + mariadb5.5 + php5.4 + phpMyAdmin4.4
+###
 
 FROM centos/systemd
 
