@@ -1,11 +1,11 @@
-# Docker Centos7 MariaDB5.5 PHP5.4 #
+# Docker with {Centos7 + MariaDB5.5 + PHP5.4 } #
 
-A Docker LAMP Stack
+A Docker LAMP stack for Web development
 
 ## Description ##
-A Docker file to build an run container with Centos7 / MariaDB5.5 / PHP5.4
+A Docker file to build an run container with Centos7 + MariaDB5.5 + PHP5.4
 
-## Build : ##
+## Build the image : ##
 ```shell
 docker build --rm --no-cache -t centos7mariadb55php54_image .
 ```
@@ -20,3 +20,6 @@ docker run --privileged --name centos7mariadb55php54_container -v /sys/fs/cgroup
 docker run --privileged --name centos7mariadb55php54_container -v /home/nafaa/monServeurLocal/htdocs:/var/www/html -v /sys/fs/cgroup:/sys/fs/cgroup:ro -p 80:80 -p 3306:3306 -v /home/nafaa/monServeurLocal/mariadb:/var/lib/mysql -d centos7mariadb55php54_image
 ```
 
+;-)
+
+[www.isetjb.net](http://www.isetjb.net/ "ISET Djerba")
